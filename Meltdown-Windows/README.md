@@ -3,7 +3,8 @@ Project from  https://github.com/stormctf/Meltdown-PoC-Windows
 
 Edit By William on VS2017
 
-May be you should adjust the config 
+Maybe you should modify the configuration file.
+
 1. Edit Meltdown.vcxproj
    > <Import Project="$(ProgramFiles)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\masm.props" \/>
 
