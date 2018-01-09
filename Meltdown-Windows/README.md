@@ -9,4 +9,4 @@ May be you should adjust the config
 
    >  <Import Project="$(ProgramFiles)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\BuildCustomizations\masm.targets" \/>
 
-   Change the path of "masm.props" and "masm.targets".
+   Change the path of "masm.props" and "masm.targets"  to be the correct path in your PC .
