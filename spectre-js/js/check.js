@@ -72,7 +72,7 @@ function check(num, data_array)
             current = evictionView.getUint32(i * offset);
     }
 
-    const worker = new Worker('/special/spectre/js/worker.js');
+    const worker = new Worker('worker.js');
 
     const sharedBuffer = new SharedArrayBuffer(10 * Uint32Array.BYTES_PER_ELEMENT);
     const sharedArray = new Uint32Array(sharedBuffer);
